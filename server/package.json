@@ -1,0 +1,26 @@
+{
+  "name": "ai-travel-negotiator-server",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "node --watch src/index.js",
+    "lint": "eslint src"
+  },
+  "dependencies": {
+    "@x402/avm": "2.23.0",
+    "@x402/core": "2.23.0",
+    "@x402/express": "2.23.0",
+    "algosdk": "3.7.0",
+    "cors": "2.8.5",
+    "dotenv": "17.4.2",
+    "express": "5.2.1",
+    "openai": "7.5.0"
+  },
+  "devDependencies": {
+    "@eslint/js": "^10.0.1",
+    "eslint": "10.8.1"
+  }
+}
